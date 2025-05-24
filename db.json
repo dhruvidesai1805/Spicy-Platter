@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "email": "spicyplatterss@gmail.com",
+      "clientName": "dhruvi",
+      "number": "87878817845",
+      "date": "2023-05-11",
+      "time": "02:19",
+      "persons": "5",
+      "message": "This is table booking",
+      "id": 2
+    }
+  ],
+  "contactus": [
+    {
+      "Name": "dhruvi",
+      "Email": "ddc@gmail.com",
+      "Number": "1234567890",
+      "Message": "add",
+      "id": 2
+    }
+  ]
+}

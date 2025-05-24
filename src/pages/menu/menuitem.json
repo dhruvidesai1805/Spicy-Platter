@@ -1,0 +1,88 @@
+{
+  "menuData": [
+    {
+      "gujarati": [
+        {
+          "img": "sevtomato",
+          "price": "120 Rs",
+          "name": "SevTomato",
+          "id": "sevtomato"
+        },
+        {
+          "img": "lasanbataka",
+          "price": "120 Rs",
+          "name": "Lasaniya Bataka",
+          "id": "lasanbataka"
+        },
+        {
+          "img": "thepla",
+          "price": "100 Rs",
+          "name": "Thepla",
+          "id": "thepla"
+        },
+        {
+          "img": "mug",
+          "price": "130 Rs",
+          "name": "Mug Nu Shak",
+          "id": "mug"
+        }
+      ],
+      "southIndian": [
+        {
+          "img": "idli",
+          "price": "80 Rs",
+          "name": "Idly",
+          "id": "idli"
+        },
+        {
+          "img": "rava",
+          "price": "80 Rs",
+          "name": "Rava idly",
+          "id": "rava"
+        }
+      ],
+      "northIndian": [
+        {
+          "img": "Pannerbutter",
+          "price": "150 Rs",
+          "name": "Panner Butter Masala",
+          "id": "pannerbutter"
+        },
+        {
+          "img": "Pannetikka",
+          "price": "180 Rs",
+          "name": "Panner Tikka",
+          "id": "pannetikka"
+        }
+      ],
+      "desert": [
+        {
+          "img": "strawberry",
+          "price": "80 Rs",
+          "name": "StrawBerry Cheese Cake",
+          "id": "strawberry"
+        },
+        {
+          "img": "halwa",
+          "price": "100 Rs",
+          "name": "Gajar Ka Halwa",
+          "id": "halwa"
+        }
+      ],
+      "snacksBeverages": [
+        {
+          "img": "coke",
+          "price": "...",
+          "name": "Coca-Cola",
+          "id": "coke"
+        },
+        {
+          "img": "smoothie",
+          "price": "...",
+          "name": "Smoothie",
+          "id": "smoothie"
+        }
+      ]
+    }
+  ]
+}

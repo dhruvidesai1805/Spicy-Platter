@@ -1,0 +1,307 @@
+
+  /* ////////////////////////////////////////////////  welcome section //////////////////////////////////////// */
+.about-body{
+  background-color: black;
+
+}
+
+
+
+  .six {
+    background-color: black;
+    margin-top: 50px;
+  }
+
+.six .box{
+    display: flex;
+    /* height: 550px; */
+    /* border: 5px solid #fff; */
+    /* margin-top: 20px;x */
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+  }
+  .photos{
+    width: 40%;
+    /* position: relative; */
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .photos img{
+    width: 280px;
+    height: 500px;
+  }
+  .information{
+    width: 60%; 
+    /* align-self: center;   */
+    /* border: 2px solid yellow; */
+  
+  }
+  .one1{
+    border: 10px solid rgb(255, 255, 255);
+    padding: 5px;   
+    border-style: double;
+    margin-left: -8rem;
+    margin-top: 2rem;
+    position: relative;
+  
+  }
+  .two2{
+    position:absolute;
+    top:  6rem;    ;
+    left: 23rem;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+  }
+  .information h2{
+    color: lightcoral;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 300px;
+    width: 100%;
+    margin-top: 1px;
+  }
+  .information p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 100px 0px 100px;
+    width: 100%;
+  }
+  .information img{
+    margin-left:20rem ;
+    margin-top: 5rem;
+    width: 200px;
+    height: 150px;
+  }
+  
+
+/* ///////////////////////////media query ///////////////////////////////// */
+
+@media(min-width:320px) and (max-width:480px) {
+/*  wlc sec */
+
+  .six .box{
+    display: inline;
+    padding: 20px;
+  }
+  .photos{
+    width: 100%;
+    text-align: center;
+    /* display: inline; */
+  }
+  .photos img{
+    width: 250px;
+    height: 270px;
+  }
+  .information{
+    width: 100%;
+    /* align-self: center;   */
+    text-align: center;
+    /* display: inline; */
+  }
+  .one1{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin: 5px;
+  
+  }
+  .two2{
+    display: none;
+  }
+  
+  .information h2{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .information img{
+  margin-left:0rem;
+  margin-top: 0rem;
+  text-align: center;
+  }
+  .information p{
+  font-size: 14px;
+  padding: 10px 10px 0px 10px;
+  }
+  
+
+}
+
+
+@media(min-width:481px) and (max-width:768px) {
+
+/* wlc sec */
+
+ .six .box{
+    display: inline;
+    padding: 20px;
+}
+.photos{
+    width: 100%;
+    text-align: center;
+}
+.photos img{
+    width: 350px;
+    height: 345px;
+}
+.information{
+    width: 100%;
+    /* align-self: center;   */
+    text-align: center;
+
+}
+.one1{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin: 5px;
+
+}
+.two2{
+    display: none;
+}
+
+.information h2{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.information img{
+margin-left:0rem;
+margin-top: 0rem;
+text-align: center;
+}
+.information p{
+font-size: 14px;
+padding: 10px 10px 0px 10px;
+}
+
+
+
+}
+
+
+@media(min-width:769px) and (max-width:1024px) {
+
+/* wlc sec */
+.six .box{
+  display: inline;
+  padding: 10px;
+}
+.photos{
+  width: 100%;
+  text-align: center;
+  height: 345px;
+}
+.photos img{
+  width: 250px;
+  height: 270px;
+}
+.information{
+  width: 100%;
+  /* align-self: center;   */
+  text-align: center;
+
+}
+.one1{
+  border: 5px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-style: double;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin: 5px;
+
+}
+.two2{
+  position:absolute;
+  top: 13rem;
+  left: 23rem;
+  border: 10px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-style: double;
+}
+
+.information h2{
+  font-size: 30px;
+  margin-top: 0px;
+}
+.information img{
+margin-left:0rem;
+margin-top: 0rem;
+text-align: center;
+}
+.information p{
+font-size: 14px;
+padding: 10px 10px 0px 10px;
+}
+
+
+}
+
+
+@media(min-width:1025px) and (max-width:1200px) {
+
+/*  wlc sec */
+
+.six .box{
+    display: flex;
+    height: 470px;
+}
+.photos{
+    width: 50%;
+    text-align: center;
+    
+}
+.photos img{
+    width: 270px;
+    height: 290px;
+}
+.information{
+    width: 50%;
+    /* align-self: center;   */
+    /* border: 2px solid yellow; */
+    text-align: center;
+
+}
+.one1{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+   margin-left: -10rem;
+    margin-top: 3rem;
+   
+
+}
+.two2{
+    position:absolute;
+    top: 17rem;
+    left: 10rem;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+}
+
+.information h2{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.information img{
+margin-left:0rem;
+margin-top: 5rem;
+text-align: center;
+}
+.information p{
+font-size: 14px;
+padding: 10px 10px 0px 10px;
+}
+
+
+
+}

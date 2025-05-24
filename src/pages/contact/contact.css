@@ -1,0 +1,264 @@
+
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    line-height: 1.7;
+    background-color: black;
+    height: 100vh;
+}
+/* ######################### html element styling ####################### */
+
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+
+
+
+/* ############## Utility class styling ################# */
+
+
+.lg-heading {
+    font-size: 3.5rem;
+}
+
+.md-heading {
+    font-size: 2.2rem;
+}
+
+.text-red {
+    /* color: #e63946; */
+    color: lightcoral;
+}
+
+
+.text-gray {
+    color: #bbb9b9;
+}
+
+.text-white{
+    color: #e0dfde;
+}
+
+
+/* ###########contact########### */
+
+.container-contact{
+    /* border: 2px solid rgb(161, 50, 205); */
+    max-width: 100%;
+    /* margin-top: 40px; */
+}
+
+
+.contact-form {
+    /* padding: 5rem 0; */
+    background: black;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+
+
+.form-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form-wrapper .company-address {
+    height: 760px;
+    background: black;
+    width: 50%;
+    float: left;
+    padding: 1.5rem;
+    /* border: 2px solid yellow; */
+}
+
+.form-wrapper .company-address i {
+    display: inline-block;
+    margin-right: 1rem;
+
+}
+
+.form-wrapper .company-address h2 {
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.form-wrapper .address-group {
+    margin-bottom: 3rem;
+}
+
+.form-wrapper .company-address img {
+    width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+
+
+/* ###########form styling############ */
+
+.form-wrapper .form {
+    font-size: 1.6rem;
+    background: black;
+    width: 50%;
+    float: right;
+    /* border: 2px solid skyblue; */
+}
+
+.form h1::after {
+    content: "";
+    display: block;
+    border: 3px solid lightcoral;
+    width: 100%;
+
+}
+
+.form-wrapper .form label {
+    display: block;
+    color: #e0dfde;
+}
+
+.form-wrapper .form input {
+    padding: 0.5rem;
+    width: 70rem;
+    border: 2px solid #fff;
+    background-color: black;
+    color: #fff;
+}
+
+.form-wrapper .form .form-group {
+    margin-bottom: 2rem;
+}
+
+.form-wrapper .form label::after {
+    content: "*";
+    color: lightcoral;
+}
+
+.form-wrapper .form textarea {
+    width: 70rem;
+    height: 200px;
+    padding: 1rem;
+    border: 2px solid #fff;
+    background-color: black;
+    color: #fff;
+}
+
+.form-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em;
+    /* font-size: 1.8rem; */
+    font-size: 20px;
+    text-transform: uppercase;
+    background: black;
+    color: lightcoral;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius:20px ;
+    border: 1px solid lightcoral;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    
+    
+}
+
+.form-btn:hover,
+.form-btn:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+/* ############################ media quries #################### */
+
+@media(max-width:500px) {
+    .contact-body {
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+
+.form-wrapper .company-address {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+.form-wrapper .form input {
+    width: 30rem;
+}
+.form-wrapper .form textarea  {
+    width: 30rem;
+}
+
+}
+
+@media(min-width: 501px) and (max-width: 768px) {
+    .contact-body {
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    .form-wrapper .company-address {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .form-wrapper .form input {
+        width: 40rem;
+    }
+    .form-wrapper .form textarea  {
+        width: 40rem;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    .contact-body {
+        font-size: 56.25%;
+
+    }
+    .container-contact{
+        width: 100%;
+    }
+    .form-wrapper .form input {
+        width: 45rem;
+    }
+    .form-wrapper .form textarea  {
+        width: 45rem;
+    }
+}

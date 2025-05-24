@@ -1,0 +1,1298 @@
+
+  
+ .home-body{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+ }
+  
+  
+   .five , .six ,.seven , .eight, .nine{
+    background-color: black;
+    
+  }
+  .special {
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+  }
+  
+  
+  .five{
+    position: relative;
+  }
+  /* ///////////////////////////////////  banner /////////////////////////////////// */
+  
+  
+  
+  .banner {
+    width: 100%;
+    position: relative;
+  }
+  
+  .banner img {
+    margin-top: 1px;
+    width: 100%;
+    /* opacity: 0.6; */
+    /* height: 650px; */
+  }
+  
+  .content {
+    position: absolute;
+    top: 30%;
+    /* left: 10%; */
+    width: 100%;
+    background: none;
+  }
+  
+  .maintitle {
+    color: #171819;
+    text-align: center;
+    /* margin-top: 15px; */
+    width: 100%;
+    background: none;
+    font-size: 90px;
+    /* background-color: rgba(237, 234, 234, 0.235); */
+    /* border: 2px solid white; */
+  
+  }
+  
+  .quote {
+    color: #171819;
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+    margin-top: 40px;
+    background: none;
+
+  }
+  
+  
+  
+   .content .button {
+    text-align: center;
+    margin-top: 4rem;
+    background: none;
+
+  }
+   .content .button a{
+    background: none;
+  }
+  
+  .content .button .button-28 {
+    background-color: transparent;
+  }
+
+
+
+  .button-28 {
+    border: 4px solid black;
+    color: #171819;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    min-height: 40px;
+    padding: 10px 240px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 40%;
+    background-color: transparent;
+  }
+  
+  .content .button .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .content .button .button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    opacity: 0.7;
+    border: 4px solid #fff;
+  }
+  
+  .content .button .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .content .button .button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .tittle {
+    display: block;
+  }
+  
+  /* ////////////////////////////////////////////////  welcome section //////////////////////////////////////// */
+  
+  
+  
+  .six .box{
+    display: flex;
+    /* height: 550px; */
+    /* margin-top: 20px;x */
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+  }
+  .photos{
+    width: 40%;
+    text-align: center;
+  }
+  .photos img{
+    width: 400px;
+    height: 450 px;
+  }
+  .information{
+    width: 60%;
+    /* align-self: center;   */
+    /* border: 2px solid yellow; */
+  
+  }
+  .one{
+    border: 10px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+    margin-left: -8rem;
+    margin-top: 2rem;
+    position: relative;
+  
+  }
+  .twomain{
+    position: absolute;
+    top: 93rem;
+    left: 20rem;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+}
+  .information h2{
+    
+    color: lightcoral;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 300px;
+    width: 100%;
+    margin-top: 1px;
+  }
+  .information p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 100px 0px 100px;
+    width: 100%;
+  }
+  .information img{
+    margin-left:34rem ;
+    margin-top: 5rem;
+    width: 200px;
+    height: 150px;
+  }
+  
+  
+  /* ///////////////////////////////////////  Best specialities /////////////////////////////////// */
+  
+  #best{
+    background-color: black;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+
+  }
+  .bestsell{
+    display: flex;
+    /* border: 2px solid rgb(255, 255, 255); */
+    text-align: center;
+    background-color: black;
+  
+  }
+  .bestsell div{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* padding-right: 100px; */
+    padding: 10px;
+  
+  }
+  .bestsell div img{
+    width: 250px;
+    height: 270px;
+    border: 2px solid #EDF5E1;
+  }
+  #best .bestsell h2{
+  
+    color: #fff;
+    font-size: 30px;
+    padding-top: 5px;
+    letter-spacing:4px;
+  }
+  #best h2{
+   color: lightcoral;
+   font-weight: 300px;
+   padding-top: 30px;
+   font-size: 40px;
+   letter-spacing: 10px;
+   margin-bottom: 30px;
+  }
+  
+  
+  
+  /* *************************************** must try ********************************* */
+  
+  .nine{
+   padding-top: 10px;
+   padding-bottom: 0px;
+  }
+  .must_try {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid white;
+    /* background-image: url(/images/apple-gbe05b9f18_1920.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+
+  
+   .h2 {
+    color: lightcoral;
+   padding-top: 20px;
+   font-size: 40px;
+   letter-spacing: 10px;
+   /* margin-bottom: 30px; */
+   text-align: center;
+   text-transform: uppercase;
+  }
+  
+  .photo {
+    width: 50%;
+    /* text-align: center; */
+  }
+  
+  .photo img {
+    max-width: 100%;
+    border: 2px solid white;
+    height: 450px;
+  }
+  
+  .info {
+    width: 50%;
+    color: white;
+    padding-right: 40px;
+  }
+  
+  .info h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* color: lightseagreen; */
+  }
+  
+  .info p {
+    text-align: justify;
+    font-size: 23px;
+  
+  }
+  
+  /* ////////////////////////////////////// about -menu//////////////////////////// */
+  
+  .eight{
+    padding-top: 20px;
+   padding-bottom: 20px;
+  }
+  
+  .eight h2{
+    color: lightcoral;
+    /* font-weight: 500; */
+  }
+  .all {
+    color: #fff;
+    /* background-image: url(/images/wood.jpg); */
+    background-color: black;
+    margin-top: 3rem;
+  }
+  
+  .categories {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  
+  .sec1 {
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .gujarati {
+    margin-bottom: 50px;
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  .main img {
+    width: 600px;
+    height: 550px;
+    margin-top: 60px;
+  }
+  
+  .sec2 {
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .south_indian {
+    margin-bottom: 50px;
+  }
+  
+  .sec3 {
+    max-width: 100%;
+    text-align: center;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 0%;
+  }
+  
+  .sec1 img,
+  .sec2 img,
+  .sec3 img,
+  .bevrages img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(241, 237, 237);
+    padding: 10px;
+  }
+  
+  .bevrages {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  /* ////////////////////// media query for home//////////////////////// */
+  
+  
+  @media(min-width:320px) and (max-width:480px) {
+  
+    .maintitle {
+  
+      width: 100%;
+      margin-top: 10px;
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0.216);
+      /* border: 2px solid white; */
+  
+    }
+  
+    .quote {
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-size: 15px;
+      margin-top: 10px
+    }
+  
+  
+  .content {
+    position: absolute;
+    top: 12%;
+    /* left: 10%; */
+    width: 100%;
+  }
+  .content .button {
+    text-align: center;
+    margin-top: 1rem;
+    background: none;
+    margin-top: 8px;
+    width: 100%;
+  }
+  
+  
+  .content .button  .button-28 {
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 8px;
+    width: 50%;
+    padding: 2px 61px;
+
+    }
+  
+    .must_try {
+      display: inline;
+      border: 0px;
+    }
+  
+    .photo {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .photo img {
+      width: 300px;
+      height: 200px;
+    }
+  
+    .info {
+      width: 100%;
+      text-align: center;
+      padding: 10%;
+    }
+  
+    .info h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+  
+    .info p {
+      text-align: justify;
+      font-size: 18px;
+  
+    }
+  
+    .html {
+      box-sizing: border-box;
+    }
+  
+    .categories {
+      max-width: 100%;
+      display: inline;
+    }
+  
+    .sec1 {
+      width: 100%;
+      display: inline;
+    }
+  
+    .sec2 {
+      display: inline;
+      width: 100%;
+    }
+  
+    .sec3 {
+      display: inline;
+    }
+  
+    .north_indian {
+  
+      margin-bottom: 60px;
+    }
+  
+    .main img {
+      width: 300px;
+      height: 250px;
+      margin-bottom: 30px;
+    }
+  
+    .sec1 img,
+    .sec2 img,
+    .sec3 img {
+      max-width: 100%;
+      height: 70px;
+    }
+  
+  /*  wlc sec */
+  
+  .six .box{
+    display: inline;
+  }
+  .photos{
+    width: 100%;
+    text-align: center;
+  }
+  .photos img{
+    width: 250px;
+    height: 270px;
+  }
+  .information{
+    width: 100%;
+    /* align-self: center;   */
+    text-align: center;
+  
+  }
+  .one{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin: 5px;
+  
+  }
+  .twomain{
+    display: none;
+  }
+  
+  .information h2{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .information img{
+  margin-left:0rem;
+  margin-top: 0rem;
+  text-align: center;
+  }
+  .information p{
+  font-size: 14px;
+  padding: 10px 10px 0px 10px;
+  }
+  
+  /* best specialities */
+  
+  .bestsell{
+    display: inline;
+  }
+  #best h2{
+    color: white;
+   padding-top: 30px;
+   font-size: 25px;
+   letter-spacing: 2px;
+  }
+  #best .bestsell h2{
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 0px;
+    letter-spacing:2px;
+  }
+  .bestsell div{
+    padding: 0%;
+  }
+  .carousel-item{
+    height: 90px;
+  }
+  
+  }
+  
+ @media(min-width:320px) and (max-width:394px) {
+  .quote {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 0px
+  }
+
+
+  .content {
+    position: absolute;
+    top: 12%;
+    /* left: 10%; */
+    width: 100%;
+  }
+  .content .button {
+    text-align: center;
+    margin-top: 1rem;
+    background: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  
+  .content .button  .button-28 {
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 15px;
+    width: 50%;
+    padding: 8px 55px
+
+    }
+ }
+ 
+ @media(min-width:394px) and (max-width:480px) {
+  .quote {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px
+  }
+
+
+  .content {
+    position: absolute;
+    top: 12%;
+    /* left: 10%; */
+    width: 100%;
+  }
+  .content .button {
+    text-align: center;
+    margin-top: 1rem;
+    background: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  
+  .content .button  .button-28 {
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 15px;
+    width: 50%;
+    padding: 8px 55px
+
+    }
+ }
+ 
+  @media(min-width:481px) and (max-width:768px) {
+    
+    .maintitle {
+  
+      width: 100%;
+      font-size: 40px;
+      background-color: rgba(255, 255, 255, 0.216);
+      /* border: 2px solid white; */
+  
+    }
+  
+    .quote {
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-size: 28px;
+      margin-top: 0px
+    }
+
+
+    .content {
+      position: absolute;
+      top: 12%;
+      /* left: 10%; */
+      width: 100%;
+    }
+    .content .button {
+      text-align: center;
+      margin-top: 1rem;
+      background: none;
+      margin-top: 15px;
+      width: 100%;
+    }
+    
+    
+    .content .button  .button-28 {
+      background-color: transparent;
+      border: 2px solid black;
+      font-size: 15px;
+      width: 50%;
+      padding: 6px 110px
+  
+      }
+  
+    .must_try {
+      display: inline;
+      border: 0px;
+    }
+  
+    .photo {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .photo img {
+      width: 300px;
+      height: 200px;
+    }
+  
+    .info {
+      width: 100%;
+      text-align: center;
+      padding: 10%;
+    }
+  
+    .info h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+  
+    .info p {
+      text-align: justify;
+      font-size: 18px;
+  
+    }
+  
+    .html {
+      box-sizing: border-box;
+    }
+  
+    .categories {
+      max-width: 100%;
+      display: inline;
+    }
+  
+    .sec1 {
+      width: 100%;
+      display: inline;
+    }
+  
+    .sec2 {
+      display: inline;
+      width: 100%;
+    }
+  
+    .sec3 {
+      display: inline;
+    }
+  
+    .north_indian {
+  
+      margin-bottom: 60px;
+    }
+  
+    .main img {
+      width: 400px;
+      height: 350px;
+      margin-bottom: 30px;
+    }
+  
+    .sec1 img,
+    .sec2 img,
+    .sec3 img {
+      max-width: 100%;
+      height: 70px;
+    }
+  
+  
+    /* wlc sec */
+  
+  .six .box{
+      display: inline;
+  }
+  .photos{
+      width: 100%;
+      text-align: center;
+  }
+  .photos img{
+      width: 350px;
+      height: 345px;
+  }
+  .information{
+      width: 100%;
+      /* align-self: center;   */
+      text-align: center;
+  
+  }
+  .one{
+      border: 5px solid rgb(255, 255, 255);
+      padding: 5px;
+      border-style: double;
+      margin-left: 0rem;
+      margin-top: 0rem;
+      margin: 5px;
+  
+  }
+  .twomain{
+      display: none;
+  }
+  
+  .information h2{
+      font-size: 30px;
+      margin-top: 0px;
+  }
+  .information img{
+  margin-left:0rem;
+  margin-top: 0rem;
+  text-align: center;
+  }
+  .information p{
+  font-size: 14px;
+  padding: 10px 10px 0px 10px;
+  }
+  
+  /* best specilities */
+  
+  .bestsell{
+    display: inline;
+  }
+  #best h2{
+    color: white;
+   padding-top: 30px;
+   font-size: 35px;
+   letter-spacing: 2px;
+  }
+  #best .bestsell h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 0px;
+    letter-spacing:2px;
+  }
+  .bestsell div{
+    padding: 0%;
+  }
+  
+  }
+@media(min-width:481px) and (max-width:560px) {
+  .quote {
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-size: 28px;
+      margin-top: 0px
+    }
+
+
+    .content {
+      position: absolute;
+      top: 12%;
+      /* left: 10%; */
+      width: 100%;
+    }
+    .content .button {
+      text-align: center;
+      margin-top: 1rem;
+      background: none;
+      margin-top: 15px;
+      width: 100%;
+    }
+    
+    
+    .content .button  .button-28 {
+      background-color: transparent;
+      border: 2px solid black;
+      font-size: 15px;
+      width: 50%;
+      padding: 6px 110px
+  
+      }
+}
+@media(min-width:560px) and (max-width:768px) {
+  .quote {
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-size: 35px;
+      margin-top: 12px
+    }
+
+
+    .content {
+      position: absolute;
+      top: 12%;
+      /* left: 10%; */
+      width: 100%;
+    }
+    .content .button {
+      text-align: center;
+      margin-top: 1rem;
+      background: none;
+      margin-top: 22px;
+      width: 100%;
+    }
+    
+    
+    .content .button  .button-28 {
+      background-color: transparent;
+      border: 2px solid black;
+      font-size: 15px;
+      width: 50%;
+      padding: 6px 150px
+  
+      }
+}
+  
+  @media(min-width:769px) and (max-width:1024px) {
+    
+    .maintitle {
+  
+      width: 100%;
+      font-size: 50px;
+    
+      background-color: rgba(255, 255, 255, 0.216);
+      /* border: 2px solid white; */
+  
+    }
+  
+    .quote {
+      color: black  ;
+      text-align: center;
+      width: 100%;
+      font-size: 40px;
+      margin-top: 10px;
+  
+    }
+    .content {
+      position: absolute;
+      top: 19%;
+      /* left: 10%; */
+      width: 100%;
+    }
+
+    .content .button {
+      margin-top: 2rem;
+      background: none;
+  
+    }
+  
+    .button-28 {
+      border: 4px solid black;
+      color: #171819;
+      font-size: 20px;
+      font-weight: bolder;
+      letter-spacing: 2px;
+     
+      text-align: center;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      width: 40%;
+      background-color: transparent;
+    }
+   
+  
+    .button-28 {
+      appearance: none;
+      background-color: transparent;
+      border: 2px solid black;
+      min-height: 40px;
+      font-size: 15px;
+      /* width: 40%; */
+      padding: 10px 240px;
+    }
+  
+    .must_try {
+      display: flex;
+      border: 0px;
+    }
+  
+    .photo {
+      width: 50%;
+      text-align: center;
+    }
+  
+    .photo img {
+      width: 300px;
+      height: 200px;
+    }
+  
+    .info {
+      width: 50%;
+      /* text-align: center; */
+      padding: 0%;
+    }
+  
+    .info h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+  
+    .info p {
+      text-align: justify;
+      font-size: 18px;
+  
+    }
+  
+    .html {
+      box-sizing: border-box;
+    }
+  
+    .categories {
+      max-width: 100%;
+      display: inline;
+    }
+  
+    .sec1 {
+      width: 100%;
+      display: inline;
+    }
+  
+    .sec2 {
+      display: inline;
+      width: 100%;
+    }
+  
+    .sec3 {
+      display: inline;
+    }
+  
+    .north_indian {
+  
+      margin-bottom: 60px;
+    }
+  
+    .main img {
+      width: 400px;
+      height: 350px;
+      margin-bottom: 30px;
+    }
+  
+    .sec1 img,
+    .sec2 img,
+    .sec3 img {
+      max-width: 100%;
+      height: 70px;
+    }
+  
+  /* wlc sec */
+  .six .box{
+    display: inline;
+  }
+  .photos{
+    width: 100%;
+    text-align: center;
+    height: 345px;
+  }
+  .photos img{
+    width: 250px;
+    height: 270px;
+  }
+  .information{
+    width: 100%;
+    /* align-self: center;   */
+    text-align: center;
+    margin-top: 50px;
+  
+  }
+  .one{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin: 5px;
+  
+  }
+  .twomain{
+    position:absolute;
+    top: 65rem;
+    left: 38rem;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-style: double;
+  }
+  
+  .information h2{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .information img{
+  margin-left:0rem;
+  margin-top: 0rem;
+  text-align: center;
+  }
+  .information p{
+  font-size: 14px;
+  padding: 10px 10px 0px 10px;
+  }
+  
+  /* best specialities */
+  
+  .bestsell{
+    display: flex;
+  }
+  #best h2{
+    color: white;
+   padding-top: 30px;
+   font-size: 40px;
+   letter-spacing: 2px;
+  }
+  #best .bestsell h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 0px;
+    letter-spacing:2px;
+  }
+  .bestsell div{
+    padding: 0%;
+  }
+  
+  }
+  
+  @media(min-width:1025px) and (max-width:1200px) {
+  
+    .maintitle {
+  
+      width: 100%;
+      font-size: 60px;
+      background-color: rgba(255, 255, 255, 0.216);
+      /* border: 2px solid white; */
+  
+    }
+  
+    .quote {
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-size: 50px;
+  
+    }
+    .content {
+      position: absolute;
+      top: 26%;
+      /* left: 10%; */
+      width: 100%;
+    }
+  
+    .button {
+      margin-top: 5rem;
+      width: 100%;
+  
+    }
+  
+    .button-28 {
+      appearance: none;
+      background-color: transparent;
+      border: 2px solid black;
+      font-size: 16px;
+      /* padding: 0px 0px 0px 0px; */
+      width: 40%;
+    }
+  
+    .photo img {
+      width: 500px;
+      height: 350px;
+    }
+  
+    .info {
+      width: 50%;
+      /* text-align: center; */
+      padding: 5%;
+    }
+  
+    .info h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+  
+    .info p {
+      text-align: justify;
+      font-size: 18px;
+  
+    }
+  
+    .categories {
+      max-width: 100%;
+      display: flex;
+    }
+  
+    .sec1 {
+      width: 50%;
+    }
+  
+    .sec2 {
+      width: 50%;
+  
+    }
+  
+    .sec3 {
+      display: flex;
+  
+    }
+  
+    .main {
+      align-self: center;
+    }
+  
+    .north_indian {
+      margin-bottom: 60px;
+    }
+  
+    .main img {
+      width: 400px;
+      height: 400px;
+  
+    }
+  
+    .sec1 img,
+    .sec2 img,
+    .sec3 img {
+      max-width: 100%;
+      height: 70px;
+    }
+  
+    /*  wlc sec */
+  
+    
+    .six .box{
+      display: flex;
+      height: 470px;
+  }
+  .photos{
+      width: 50%;
+      text-align: center;
+      
+  }
+  .photos img{
+      width: 270px;
+      height: 290px;
+  }
+  .information{
+      width: 50%;
+      /* align-self: center;   */
+      /* border: 2px solid yellow; */
+      text-align: center;
+  
+  }
+  .one{
+      border: 5px solid rgb(255, 255, 255);
+      padding: 5px;
+      border-style: double;
+     margin-left: -10rem;
+      margin-top: 3rem;
+     
+  
+  }
+  .twomain{
+      position:absolute;
+      top: 80rem;
+      left: 17rem;
+      border: 10px solid rgb(255, 255, 255);
+      padding: 5px;
+      border-style: double;
+  }
+  
+  .information h2{
+      font-size: 30px;
+      margin-top: 0px;
+  }
+  .information img{
+  margin-left:0rem;
+  margin-top: 5rem;
+  text-align: center;
+  }
+  .information p{
+  font-size: 14px;
+  padding: 10px 10px 0px 10px;
+  }
+  
+  /* best specialities */
+  
+  .bestsell{
+    display: flex;
+  }
+  #best h2{
+    color: white;
+   padding-top: 30px;
+   font-size: 40px;
+   letter-spacing: 2px;
+  }
+  #best .bestsell h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 0px;
+    letter-spacing:2px;
+  }
+  .bestsell div{
+    padding: 0%;
+  }
+  
+  }
+  
+  
+  
+  

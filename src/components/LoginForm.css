@@ -1,0 +1,110 @@
+.login-body{
+  background-color: black;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 40%;
+  height: 55rem;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+  left: 45rem;
+  margin-bottom: 50px;
+}
+
+ .login-container h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.logform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-input {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: #c9c9c96e;
+}
+.logologin{
+  height: 13rem;
+  margin-bottom: 10px;
+}
+
+.loginbtn {
+  padding: .5rem 3rem;
+  background-color: black ;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  border-radius: 0.70rem;
+  cursor: pointer;
+ 
+  
+}
+.adminbutton{
+  margin-top: 15px;
+}
+
+.loginbtn:hover,
+.loginbtn:active {
+    background-color: white;
+    background-position: 0 0;
+    color: black;
+    border: 3px solid black;
+    font-size: 2rem;
+}
+label{
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  color: rgba(8, 8, 8, 0.639); 
+  opacity: 2; 
+}
+
+@media(min-width:320px) and (max-width:480px) {
+  
+  .login-container {
+  left: 2rem;
+  width: 90%;
+  height: 40rem;
+  top:5rem
+  }
+  
+}
+@media(min-width:481px) and (max-width:768px) {
+  .login-container {
+    left: 19rem;
+    width: 50%;
+    height: 40rem;
+    top:5rem
+    }
+}
+@media(min-width:769px) and (max-width:1024px) {
+  .login-container {
+    left: 23rem;
+    width: 50%;
+    height: 40rem;
+    top:5rem
+    }
+}
+@media(min-width:1025px) and (max-width:1200px) {
+  .login-container {
+    left: 27rem;
+    width: 50%;
+    height: 40rem;
+    top:5rem
+    }
+}
